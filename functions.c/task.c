@@ -2,7 +2,7 @@
 
 int sub();
 int mul();
-int div();
+float div();
 
 int sub()
 {
@@ -21,12 +21,12 @@ int mul()
 
 }
 
-int div()
+float div()
 {
-    int x=10;
-    int y=2;
+   float x=10;
+   float y=2;
 
-    printf("Div = %d",x/y);
+    printf("Div = %.2f",x/y);
 }
 
 int main()
